@@ -1,0 +1,7 @@
+My Git Workflow
+
+1. Create or change a file.
+2. Use git status to see what changed.
+3. Use git add to prepare the changes.
+4. Use git commit to save a snapshot of the changes.
+5. Use git push to upload the committed changes to GitHub.

@@ -1,0 +1,8 @@
+Phase 0:
+
+The Phase 0 was just like an orientation before starting other phases in my self learning plan.
+The Phase 0 introduced me to basic concept of tools and most importantly, what Frontend Development.
+
+There will be other phases consisting of tools im learning, like Phase-1 for HTML, Phase-2 for CSS etc.
+
+Phase 0 - Completed...

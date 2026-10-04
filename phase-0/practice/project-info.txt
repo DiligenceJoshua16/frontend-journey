@@ -1,0 +1,4 @@
+Project: Frontend Web Development with AI Integration
+Developer: Diligence Joshua
+Phase: 0
+Status: Completed
