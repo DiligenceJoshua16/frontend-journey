@@ -1,0 +1,7 @@
+1. This is the step by step method of how I will learn the HTML Language:
+2. Watch a Tutorial and code alongside the video.
+3. Take notes alongside code examples from ChatGPT for proper study.
+4. Study them and practice with a few guided project probably from roadmap.sh and refined by ChatGPT.
+5. Create two web pages independently .
+6. Publish milestone on LinkedIn.
+
