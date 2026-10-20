@@ -1,0 +1,402 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+    name="description"
+    content="Practicing HTML">
+    <title>HTML Practice</title>
+  </head>
+  <body></body>
+</html>
+
+<!-- Elements, Tags and Attributes -->
+ <h1>Elements, Tags and Attributes</h1>
+<p>Hello World</p>
+<!-- <p> is an element consisting of
+    an opening tag, content and a closing tag -->
+<a href="https://example.com">Visit Example</a>
+<!-- <a> is the element
+        href is the attribute
+        "https://example.com is the attribute value" -->
+
+<!-- HEADINGS 
+ There are six headings in HTML-->
+ <h1>HEADINGS</h1>
+<h1>My Portfolio</h1>
+<h2>About Me</h2>
+<h3>My Skills</h3>
+<h4>Frontend Skills</h4>
+<h5>HTML</h5>
+<h6>HTML Elements</h6>
+<!-- The numbers do represent the level of heading heirachy -->
+
+<!-- Paragraphs
+ The <p> represents a paragraph -->
+  <h1>Paragraphs</h1>
+<p>
+  I am learning Frontend Development and building my skills through practical
+  work.
+</p>
+<!-- Multiple Paragraphs -->
+ <h1>Multiple Paragraphs</h1>
+<p>HTML provides structure for web pages.</p>
+<p>CSS controls presentation and layout.</p>
+<p>JavaScript adds behavior and interaction.</p>
+
+<!-- Nesting
+ Placing Elements inside other elements -->
+ <h1>Nesting</h1>
+<section>
+  <h2>About Me</h2>
+  <p>I am currently learning frontend development.</p>
+</section>
+<!-- The h2 and p elements are nested in the section element. -->
+<p>This is an <strong>Important</strong> Information</p>
+<!-- This is the correct way to nest -->
+
+<!-- Indentation -->
+ <h1>Indentation</h1>
+<body>
+  <header>
+    <h2>My Website</h2>
+    <p>Welcome to my website</p>
+  </header>
+
+  <main>
+    <h2>About Me</h2>
+    <p>I am learning HTML</p>
+  </main>
+</body>
+
+<!-- Text Semantics
+  Using HTML elements to communicate the meaning
+  or importance of text
+   -->
+  <h1>Text Semantics</h1>
+<!-- Strong Importance -->
+<p><strong>Important:</strong> Save your work before closing VS Code.</p>
+<!-- Text Emphasis -->
+<p>This is <em>especially</em> useful when practicing.</p>
+<!-- Quoted Text -->
+<blockquote>
+  <p>Learning requires patience and Consistency</p>
+</blockquote>
+<!-- Short Quotations -->
+<p>My Tutor always says <q>Practice makes progress.</q></p>
+<!-- Computer Code -->
+<p>Use the <code>&lt;h1&gt;</code> for a main heading.</p>
+
+<!-- Links -->
+ <h1>Links</h1>
+<!-- External Links -->
+<a href="https://github.com" target="_blank" rel="noopener noreferrer"
+  >Visit Github</a
+>
+<a href="https://www.google.com" target="_blank" rel="noopener noreferrer"
+  >Visit Google</a
+>
+<!-- 
+ The <a> is the element while the href is the attribute that contains the destination
+    The _blank is meant to open the link in a new browser
+     The rel="noopener noreferrer" is a useful security and privacy practice for external links opened in a new tab.
+-->
+
+<!-- Link to page in our practice -->
+<a href="about.html" target="_blank">About</a>
+
+<!-- Link to a section on the same page: -->
+<a href="contact.html" target="_blank">Contact</a>
+
+<!-- Images -->
+ <h1>Images</h1>
+<div>
+  <img
+    src="C:\Users\Ayowunmi\Desktop\frontend-journey\phase-1\HTML Crash Course\HTML Practice\img\2181499817451397.jpg"
+    alt="Laptop Displaying A Code Editor"
+  />
+</div>
+<!-- src
+    Specifies the image location.
+
+alt
+    Provides alternative text describing the image.
+ -->
+
+<!-- Figure and Fig caption 
+Figure is used when an image or other content is
+presented as a self contained piece of content 
+-->
+<h1>Figure and Fig caption </h1>
+<figure>
+  <img
+    src="C:\Users\Ayowunmi\Desktop\frontend-journey\phase-1\HTML Crash Course\HTML Practice\img\2181499817451397.jpg"
+    alt="Laptop Displaying A Code Editor"
+  />
+  <!-- The `<figcaption>` element provides a caption or explanation for the content inside a `<figure>`. -->
+  <figcaption>My Code Editor</figcaption>
+</figure>
+
+<!-- Lists -->
+<!--
+ Unordered Lists
+ The <ul> element is used when the order of items does not matter.
+ -->
+<h1> Unordered Lists</h1>
+ <ul>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavaScript</li>
+ </ul>
+<!-- The browser will display them as bullet points. -->
+
+<!-- 
+Ordered lists 
+The <ol> element is used when the ordering of the itens matter
+-->
+<h1>Ordered lists </h1>
+<ol>
+    <li>Learn HTML</li>
+    <li>Learn CSS</li>
+    <li>Learn JavaScript</li>
+</ol>
+
+They browser automatically numbers them.
+
+<!--
+ Nested Lists
+ These are lists containing other lists
+  -->
+
+  <h1>Nested Lists</h1>
+
+<ul>
+    <li>Frontend
+        <ol>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ol>
+    </li>
+    
+    <li>
+        Backend
+        <ol>
+            <li>Node.js</li>
+            <li>Databases</li>
+        </ol>
+    </li>
+
+</ul>
+
+<!-- Tables -->
+<h1> Tables</h1>
+<table>
+  <thead>
+    <tr>
+    <th>Name</th>
+    <th>Skill</th>
+  </tr>
+
+  </thead>
+  
+  <tbody>
+    <tr>
+    <td>Diligence</td>
+    <td>HTML</td>
+  </tr>
+
+  <tr>
+    <td>Diligence</td>
+    <td>CSS</td>
+  </tr>
+
+  <tr>
+    <td>Diligence</td>
+    <td>JavaScript</td>
+  </tr>
+  </tbody>
+
+</table>
+
+
+<!--
+ Semantic HTML 
+ Semantic HTML means using elements according to their meaning
+and purpose.
+-->
+<h1>Semantic HTML:</h1>
+<!-- Header -->
+<h2>My Website</h2>
+<!-- Navigation -->
+<nav>
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="contact.html">Contact</a>
+</nav>
+<!-- Main -->
+ <main>
+  <section>
+    <h2>About Me</h2>
+    <p>I am learning frontend</p>
+  </section>
+
+  <section>
+    <h2>Projects</h2>
+
+    <article>
+      <h3>Portfolio Website</h3>
+      <p>This website represents my work
+
+      </p>
+    </article>
+  </section>
+ </main>
+
+ <footer>
+  <p>Copyright 2026.
+
+  </p>
+ </footer>
+
+ <h1>DIV</h1>
+ <!-- DIV
+  DIV is a geneic block level container
+   -->
+
+   <div>
+    <h2>About Me</h2>
+    <p>Im Currently learning Frontend Development</p>
+   </div>
+
+   <h1>Span</h1>
+   <!--
+   Span
+    Span is a generic inline container
+     -->
+
+     <p>My Favorite language is <span>CSS</span>
+    </p>
+
+
+     <!--
+      Forms
+      Forms allows user to enter and submit information
+       -->
+<h1>Forms</h1>
+
+      <form>
+    <div>
+      <label> First Name:</label>
+      <input type="text"
+      placeholder="First Name"
+      required>
+    </div>
+
+    <div>
+      <label> Last Name: </label>
+      <input type="text"
+      placeholder="Last Name"
+      required>
+    </div>
+
+    <div>
+      <label >Password:</label>
+      <input type="password"
+      placeholder="Input your password"
+      required>
+    </div>
+
+    <div>
+      <label >Email Address:</label>
+      <input type="email"
+      placeholder="name@gmail.com"
+      required>
+    </div>
+
+    <div>
+      <label >Date of Birth:</label>
+      <input type="date"
+      required>
+    </div>
+
+    <div>
+      <label>Country:</label>
+<select>
+    <option value="nigeria">Nigeria</option>
+    <option value="ghana">Ghana</option>
+    <option value="kenya">Kenya</option>
+</select>
+    </div>
+
+    <div>
+      <label >Size:</label>
+      <select >
+        <option value="XS">XS</option>
+        <option value="S">S</option>
+        <option value="M">M</option>
+        <option value="L">L</option>
+        <option value="XL">XL</option>
+      </select>
+    </div>
+
+    <div>
+      <label >Quantity:</label>
+      <input type="number"
+      required>
+    </div>
+
+     <div>
+      <label >Message:</label>
+      <textarea ></textarea>
+    </div>
+
+</form>
+
+<!-- Radio Buttons -->
+ <div>
+  <label >
+  <input type="radio">
+ I am over 16 years of age
+ </label>
+ </div>
+ 
+ <!-- Checkbox -->
+  <div><label>
+    <input type="checkbox" >
+    I agree to the following terms and conditions.
+</label>
+</div>
+
+<!-- Buttons -->
+<button>
+  Submit
+</button>
+
+<!-- 
+Aria
+ARIA stands for Accessible Rich Internet Applications.
+
+ARIA can provide additional accessibility information when normal
+HTML cannot adequately communicate something.
+ -->
+ <h1>Aria</h1>
+ <button aria-label="Close Menu">
+  Close Menu
+ </button>
+
+<!-- 
+ HTML Entities
+ HTML Characters with special meaning
+  -->
+ <h1>HTML Entities</h1>
+<!-- 
+&lt;    <
+&gt;    >
+&amp;   &
+&quot;  "
+&nbsp;  non-breaking space  
+-->
+<p>Use &lt;h1&gt; for a main haeding.</p>
+

@@ -1,0 +1,14 @@
+I built this page using a form and some other elements.
+The form contains:
+
+• Communication Channels
+• Contact Method
+• Topic of Interest
+• A submission button
+etc.
+
+And also a page showing my contact details..
+
+
+
+

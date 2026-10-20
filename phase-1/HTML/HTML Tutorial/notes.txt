@@ -1,0 +1,25 @@
+After watching a tutorial on HTML from ASAP Frontend on YouTube.
+
+I came to understand that HTML is a markup language not a programming language.
+
+I came across elements and attributes:
+• Headings : <h1/>, <h2/>, <h3/>, <h4/>, <h5/>, <h6/>
+And also that they do follow an hierarchy.
+• Paragraphs : <p/>
+• Bold : <b/>
+• Italic : <i/>
+• Links : <a href=""><a/>
+This is an anchor element with 'href' as its attributes. The element creates a link.
+• Comments : <!-- -->
+•Lists: <li/>
+Unordered list <ul/>
+Ordered lists <ol/>
+• Forms: <form/>
+• div : <div/>
+• button : <button/>
+• images : <img src="" alt=""/>
+• Span : <span/>
+
+etc.
+I not not watch the tutorial but also code alongside the video.
+

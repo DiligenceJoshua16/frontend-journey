@@ -1,0 +1,5 @@
+This Project is a Developer Contact and Enquiry Page.
+This project shows how a enquiry page is built using:
+• Forms 
+• External Contact page and some other elements.
+

@@ -1,0 +1,9 @@
+Here, I used every element I learnt in my tutorial on my own.
+
+I also read documentations and took study notes and code examples from chatGPT.
+
+Seeing how they work under the hood.
+
+Just knowing how to use them before embarking on some unguided projects.
+
+

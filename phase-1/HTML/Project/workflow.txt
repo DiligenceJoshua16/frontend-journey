@@ -1,0 +1,2 @@
+1. Work web with guided projects on HTML.
+2. Build web pages independently from scratch.

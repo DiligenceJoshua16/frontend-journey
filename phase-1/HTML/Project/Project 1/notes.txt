@@ -1,0 +1,20 @@
+Here in this project, its actually a frontend intro page and its talking about me and my learning journey.
+I was able to complete it using the following elements:
+• Headers
+• Paragraphs
+• main
+• main
+• section
+• lists
+• Tables
+
+Firstly, i :
+1. Introduced myself and why i want to learn frontend development.
+2. Documented Learning Journey.
+3. Approach to learning.
+4. Learning roadmap and sequence.
+5. Table on technologies and statuses
+6. Links to other pages like about and contact.
+
+
+HTML: In Progress

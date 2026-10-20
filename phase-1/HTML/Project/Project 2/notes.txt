@@ -1,0 +1,14 @@
+This is a developer resource centre project explaining my learning roadmaps and resources.
+
+First of all:
+I started with a header of which included links and headings then to the main section of the body which includes images with alternative text for screen readers and also a figure caption, list of my learning resources and links:
+• My Learning Roadmap
+• My Learning Resources
+• My Contact
+• And the Home page.
+
+I also included external links like:
+• A link to a tutorial on frontend development on YouTube.
+• A link to a roadmap on technical roles.
+
+
