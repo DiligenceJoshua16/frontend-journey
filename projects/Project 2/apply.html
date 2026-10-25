@@ -1,0 +1,288 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Application Information" />
+    <title>Application Information</title>
+  </head>
+
+  <body>
+    <header>
+      <h1>NovaPath Technologies</h1>
+      <h2>Application Instruction</h2>
+      <p>
+        <strong>Disclaimer:</strong>
+        This application is a strict frontend development sandbox. No data is
+        saved, transmitted, or evaluated for actual employment.
+      </p>
+
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="preparation.html">Preparation and learning resources</a>
+        <a href="apply.html">Application Details</a>
+        <a href="questions.html">FAQ</a>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <h2>Who should apply:</h2>
+        <ul>
+          <li>Beginners learning frontend development</li>
+          <li>People who have studied basic HTML.</li>
+          <li>Learners interested in building webpages.</li>
+          <li>People willing to practise, review mistakes, and improve.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Preparation Steps</h2>
+        <p>
+          In preparation for the programme, applicants should be encouraged to:
+        </p>
+        <ul>
+          <li>Review the opportunity details.</li>
+          <li>Reflect on the HTML concepts they understand.</li>
+          <li>Identify relevant skills they've practised.</li>
+          <li>Prepare a short explanation of their interests.</li>
+          <li>Have a portfolio or project link available if they have one.</li>
+          <p>
+            <i>For more info, visit the resource page</i>:
+            <a href="preparation.html">Preparation and learning resources</a>
+          </p>
+        </ul>
+      </section>
+
+      <section>
+        <h2>What happens after submission?</h2>
+        <p>
+          Form submissions are not processed or sent to any server. This page
+          serves solely as a design showcase, so submitting the form does not
+          result in a real recruitment process.
+        </p>
+      </section>
+
+      <section>
+        <h2>Apply for the Junior Frontend Developer Opportunity</h2>
+
+        <form>
+          <fieldset>
+            <legend>Personal Information</legend>
+            <div>
+              <label for="full-name">Full Name</label>
+              <input
+                type="text"
+                name="full-name"
+                id="full-name"
+                placeholder="Full Name"
+                required
+              />
+            </div>
+
+            <div>
+              <label for="email-address">Email Address</label>
+              <input
+                type="email"
+                name="email-address"
+                id="email-address"
+                placeholder="name@example.com"
+                required
+              />
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend>Relevant Skills</legend>
+
+            <div>
+              <label>
+                <input type="checkbox" name="skill" value="HTML" />
+                HTML
+              </label>
+            </div>
+
+            <div>
+              <label>
+                <input type="checkbox" name="skill" value="Semantic HTML" />
+                Semantic HTML
+              </label>
+            </div>
+
+            <div>
+              <label>
+                <input type="checkbox" name="skill" value="Git" />
+                Git
+              </label>
+            </div>
+
+            <div>
+              <label>
+                <input type="checkbox" name="skill" value="Github" />
+                Github
+              </label>
+            </div>
+
+            <div>
+              <label>
+                <input
+                  type="checkbox"
+                  name="skill"
+                  value="Accessibility fundamentals"
+                />
+                Accessibility fundamentals
+              </label>
+            </div>
+
+            <div>
+              <label>
+                <input
+                  type="checkbox"
+                  name="skill"
+                  value="Documentation and independent learning"
+                />
+                Documentation and independent learning
+              </label>
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend>Level of Experience</legend>
+            <div>
+              <label>
+                <input
+                  type="radio"
+                  name="experience-level"
+                  value="Complete beginner"
+                  required
+                />
+                Complete beginner
+              </label>
+            </div>
+
+            <div>
+              <label>
+                <input
+                  type="radio"
+                  name="experience-level"
+                  value="Learning HTML"
+                  required
+                />
+                Learning HTML
+              </label>
+            </div>
+
+            <div>
+              <label>
+                <input
+                  type="radio"
+                  name="experience-level"
+                  value="Building practice projects"
+                  required
+                />
+                Building practice projects
+              </label>
+            </div>
+
+            <div>
+              <label>
+                <input
+                  type="radio"
+                  name="experience-level"
+                  value="Familiar with HTML and beginning CSS"
+                  required
+                />
+                Familiar with HTML and beginning CSS
+              </label>
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend>Areas of Interest</legend>
+            <div>
+              <label>
+                <input
+                  type="checkbox"
+                  name="area-of-interest"
+                  id="HTML Basics"
+                />
+                HTML Basics
+              </label>
+            </div>
+
+            <div>
+              <label>
+                <input
+                  type="checkbox"
+                  name="area-of-interest"
+                  id="Semantic HTML"
+                />
+                Semantic HTML
+              </label>
+            </div>
+
+            <div>
+              <label>
+                <input
+                  type="checkbox"
+                  name="area-of-interest"
+                  id="Accessibility"
+                />
+                Accessibility
+              </label>
+            </div>
+
+            <div>
+              <label>
+                <input
+                  type="checkbox"
+                  name="area-of-interest"
+                  id="Frontend project development"
+                />
+                Frontend project development
+              </label>
+            </div>
+          </fieldset>
+
+          <div>
+            <label for="motivation">Motivation for Applying: </label>
+            <textarea name="motivation" id="motivation"></textarea>
+          </div>
+
+          <label>
+            <input
+              type="checkbox"
+              name="confirm"
+              id="I acknowledge that every activity done here is a fictional demonstration and not a real recruitment process!"
+            />
+            I acknowledge that every activity done here is a fictional
+            demonstration and not a real recruitment process!
+          </label>
+
+          <div>
+            <button type="submit">Submit</button>
+          </div>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy;2026 NovaPath Technologies. All rights reserved.</p>
+      <h3>NovaPath Technologies</h3>
+      <p>
+        <strong>Disclaimer:</strong> NovaPath Technologies is a fictional
+        organization created for educational and portfolio demonstration
+        purposes. The opportunity described on this website is not a real job
+        vacancy, and the application form does not submit or store applications.
+      </p>
+
+      <h3>Quick Links</h3>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="preparation.html">Preparation and learning resources</a>
+        <a href="apply.html">Application Details</a>
+        <a href="questions.html">FAQ</a>
+      </nav>
+    </footer>
+  </body>
+</html>
