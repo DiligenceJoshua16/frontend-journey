@@ -3,21 +3,24 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Application Information" />
-    <title>Application Information</title>
+    <meta
+      name="description"
+      content="Explore the application instructions and demonstration form for NovaPath Technologies' fictional junior frontend developer opportunity."
+    />
+    <title>NovaPath Technologies | Application Details</title>
   </head>
 
   <body>
     <header>
       <h1>NovaPath Technologies</h1>
-      <h2>Application Instruction</h2>
+      <h2>Application Instructions</h2>
       <p>
         <strong>Disclaimer:</strong>
         This application is a strict frontend development sandbox. No data is
         saved, transmitted, or evaluated for actual employment.
       </p>
 
-      <nav>
+      <nav aria-label="Main navigation">
         <a href="index.html">Home</a>
         <a href="preparation.html">Preparation and learning resources</a>
         <a href="apply.html">Application Details</a>
@@ -47,11 +50,11 @@
           <li>Identify relevant skills they've practised.</li>
           <li>Prepare a short explanation of their interests.</li>
           <li>Have a portfolio or project link available if they have one.</li>
-          <p>
-            <i>For more info, visit the resource page</i>:
-            <a href="preparation.html">Preparation and learning resources</a>
-          </p>
         </ul>
+        <p>
+          For more information, visit our
+          <a href="preparation.html">Preparation and learning resource Page</a>
+        </p>
       </section>
 
       <section>
@@ -118,8 +121,8 @@
 
             <div>
               <label>
-                <input type="checkbox" name="skill" value="Github" />
-                Github
+                <input type="checkbox" name="skill" value="GitHub" />
+                GitHub
               </label>
             </div>
 
@@ -204,7 +207,8 @@
                 <input
                   type="checkbox"
                   name="area-of-interest"
-                  id="HTML Basics"
+                  id="interest-html-basics"
+                  value="HTML Basics"
                 />
                 HTML Basics
               </label>
@@ -215,7 +219,8 @@
                 <input
                   type="checkbox"
                   name="area-of-interest"
-                  id="Semantic HTML"
+                  id="interest-semantic-html"
+                  value="Semantic HTML"
                 />
                 Semantic HTML
               </label>
@@ -226,7 +231,8 @@
                 <input
                   type="checkbox"
                   name="area-of-interest"
-                  id="Accessibility"
+                  id="interest-accessibility"
+                  value="Accessibility"
                 />
                 Accessibility
               </label>
@@ -237,7 +243,8 @@
                 <input
                   type="checkbox"
                   name="area-of-interest"
-                  id="Frontend project development"
+                  id="interest-frontend-projects"
+                  value="Frontend project development"
                 />
                 Frontend project development
               </label>
@@ -246,29 +253,36 @@
 
           <div>
             <label for="motivation">Motivation for Applying: </label>
-            <textarea name="motivation" id="motivation"></textarea>
+            <textarea
+              name="motivation"
+              id="motivation"
+              rows="5"
+              placeholder="Explain what interests you about frontend development."
+            ></textarea>
           </div>
 
-          <label>
+          <label for="fictional-acknowledgement">
             <input
               type="checkbox"
               name="confirm"
-              id="I acknowledge that every activity done here is a fictional demonstration and not a real recruitment process!"
+              id="fictional-acknowledgement"
+              value="acknowledged"
+              required
             />
             I acknowledge that every activity done here is a fictional
             demonstration and not a real recruitment process!
           </label>
 
           <div>
-            <button type="submit">Submit</button>
+            <button type="submit">Submit Demonstration Form</button>
           </div>
         </form>
       </section>
     </main>
 
     <footer>
-      <p>&copy;2026 NovaPath Technologies. All rights reserved.</p>
-      <h3>NovaPath Technologies</h3>
+      <p>&copy; 2026 NovaPath Technologies. All rights reserved.</p>
+      <p><strong>NovaPath Technologies</strong></p>
       <p>
         <strong>Disclaimer:</strong> NovaPath Technologies is a fictional
         organization created for educational and portfolio demonstration
@@ -276,8 +290,8 @@
         vacancy, and the application form does not submit or store applications.
       </p>
 
-      <h3>Quick Links</h3>
-      <nav>
+      <h2>Quick Links</h2>
+      <nav aria-label="Footer navigation">
         <a href="index.html">Home</a>
         <a href="preparation.html">Preparation and learning resources</a>
         <a href="apply.html">Application Details</a>
