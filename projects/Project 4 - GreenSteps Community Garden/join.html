@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Use a demonstration form to express interest in the fictional GreenSteps Community Garden project.">
+  <title>GreenSteps Community Garden | Get Involved</title>
+</head>
+<body>
+  <a href="#main-content">Skip to main content</a>
+  <header>
+    <p>GreenSteps Community Garden</p>
+    <nav aria-label="Main navigation">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="activities.html">Activities</a></li>
+        <li><a href="beginner-tips.html">Beginner tips</a></li>
+        <li><a href="join.html" aria-current="page">Get involved</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main id="main-content">
+    <h1>Get involved</h1>
+    <p>This demonstration form is for practice only. GreenSteps is fictional; the form does not register volunteers or send information anywhere.</p>
+    <form action="#" method="get">
+      <div>
+        <label for="name">Your name</label>
+        <input type="text" id="name" name="name" autocomplete="name" required>
+      </div>
+      <div>
+        <label for="email">Email address</label>
+        <input type="email" id="email" name="email" autocomplete="email" required>
+      </div>
+      <fieldset>
+        <legend>What would you like to learn about?</legend>
+        <div><input type="checkbox" id="seeds" name="interest" value="seed-starting"><label for="seeds">Seed-starting</label></div>
+        <div><input type="checkbox" id="care" name="interest" value="garden-care"><label for="care">Garden care</label></div>
+        <div><input type="checkbox" id="teamwork" name="interest" value="community"><label for="teamwork">Community activities</label></div>
+      </fieldset>
+      <div>
+        <label for="experience">Your experience level</label>
+        <select id="experience" name="experience" required>
+          <option value="">Choose one</option>
+          <option value="beginner">New to gardening</option>
+          <option value="some">I have tried a little</option>
+          <option value="experienced">I have some experience</option>
+        </select>
+      </div>
+      <div>
+        <label for="note">Anything else you would like to share? (optional)</label>
+        <textarea id="note" name="note" rows="5"></textarea>
+      </div>
+      <button type="submit">Submit demonstration form</button>
+    </form>
+  </main>
+  <footer>
+    <p>GreenSteps Community Garden is a fictional project for HTML and CSS practice. It is not a real organisation or event listing.</p>
+    <p><a href="index.html">Return to home</a></p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Send a sample question or feedback message to the fictional SkillSpring Learning Hub.">
+  <title>SkillSpring Learning Hub | Contact</title>
+</head>
+<body>
+  <a href="#main-content">Skip to main content</a>
+  <header>
+    <p>SkillSpring Learning Hub</p>
+    <nav aria-label="Main navigation">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="learning-paths.html">Learning paths</a></li>
+        <li><a href="study-guide.html">Study guide</a></li>
+        <li><a href="contact.html" aria-current="page">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main id="main-content">
+    <h1>Contact SkillSpring</h1>
+    <p>This is a demonstration form for the practice project. It does not send or store messages.</p>
+    <form action="#" method="get">
+      <div>
+        <label for="full-name">Your name</label>
+        <input type="text" id="full-name" name="full-name" autocomplete="name" required>
+      </div>
+      <div>
+        <label for="email">Email address</label>
+        <input type="email" id="email" name="email" autocomplete="email" required>
+      </div>
+      <div>
+        <label for="topic">What is your message about?</label>
+        <select id="topic" name="topic" required>
+          <option value="">Choose a topic</option>
+          <option value="learning-path">Learning path</option>
+          <option value="study-skills">Study skills</option>
+          <option value="feedback">Website feedback</option>
+        </select>
+      </div>
+      <div>
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="6" required></textarea>
+      </div>
+      <button type="submit">Submit demonstration form</button>
+    </form>
+  </main>
+  <footer>
+    <p>SkillSpring Learning Hub is a fictional practice project created for frontend learning.</p>
+    <p><a href="index.html">Return to home</a></p>
+  </footer>
+</body>
+</html>
